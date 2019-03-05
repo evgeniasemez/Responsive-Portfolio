@@ -41,7 +41,7 @@ body {
     margin-left: 150px;
     margin-right: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     flex-basis: 960px;
     box-shadow: 2px 0px 2px 3px #0000000f;
     max-width: 960px;
@@ -165,13 +165,19 @@ body {
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
     @media screen and (max-width: 980px) {
-        .input-label {
-            color:blue;
-        }
+        
     }
     @media screen and (max-width: 768px) {
-        .input-label {
-            color:blue;
+        .card{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        aside{
+            margin-left: 20px;
+        }
+        .card-portfolio{
+            margin-left: 20px;
+            margin-right: 20px;
         }
     }
     @media screen and (max-width: 640px) {
@@ -181,6 +187,7 @@ body {
             text-align: center;
             display: inline-block;
             margin: 0px;
+            padding-right: 0px;
         }
         .navigation{
             padding: 0px;
@@ -197,4 +204,11 @@ body {
             margin-left: 20px;
             margin-right: 20px;
         }
+        .card-portfolio {
+            margin-left: 20px;
+            margin-right: 20px;
+        } 
+        header{
+            height: unset;
+        }   
     }
